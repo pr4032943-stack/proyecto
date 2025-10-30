@@ -1,0 +1,180 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>SkateHouse - Home</title>
+
+    <!-- Font Awesome (icons only) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" crossorigin="anonymous" />
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/style.css" />
+    
+  </head>
+
+  <body>
+    <!-- Header: classic layout (logo left, nav center, cart right) -->
+    <header id="site-header" class="site-header">
+      <div class="container header-inner">
+        <a href="#" class="brand">SkateHouse</a>
+
+        <nav id="main-nav" class="site-nav" aria-label="Main navigation">
+          <ul class="nav-list">
+            <li class="nav-item"><a href="#gallery" class="nav-link">Galería</a></li>
+            <li class="nav-item"><a href="#products" class="nav-link">Productos</a></li>
+            <li class="nav-item">
+              <button id="cart-toggle" class="btn-icon" aria-label="Open cart">
+                <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+              </button>
+            </li>
+          </ul>
+        </nav>
+
+        <!-- hamburger kept for small screens but header is classic on wide screens -->
+        <button id="menu-toggle" class="menu-toggle" aria-label="Toggle menu">
+          <i class="fa fa-bars" aria-hidden="true"></i>
+        </button>
+      </div>
+    </header>
+
+    <!-- Main content -->
+    <main>
+      <!-- Hero -->
+      <section id="hero" class="hero">
+        <div class="container hero-inner">
+          <h1 class="hero-title">Elige tu plan</h1>
+          <p class="hero-sub">Skates, trucks, ruedas y accesorios — todo en un lugar.</p>
+        </div>
+      </section>
+
+      <!-- Gallery (must contain 10 images) -->
+      <section id="gallery" class="gallery-section">
+        <div class="container">
+          <h2 class="section-title">Galería</h2>
+          <div class="gallery-grid" role="list">
+            <img src="imagenes/descargar (1).jpg" alt="skate 1" class="gallery-item" />
+            <img src="imagenes/descargar (2).jpg" alt="skate 2" class="gallery-item" />
+            <img src="imagenes/descargar (3).jpg" alt="skate 3" class="gallery-item" />
+            <img src="imagenes/descargar (4).jpg" alt="skate 4" class="gallery-item" />
+            <img src="imagenes/descargar (5).jpg" alt="skate 5" class="gallery-item" />
+            <img src="imagenes/descargar (6).jpg" alt="skate 6" class="gallery-item" />
+            <img src="imagenes/descargar.jpg" alt="skate 7" class="gallery-item" />
+            <img src="imagenes/images (1).jpg" alt="skate 8" class="gallery-item" />
+            <img src="imagenes/images (10).jpg" alt="skate 9" class="gallery-item" />
+            <img src="imagenes/images (11).jpg" alt="skate 10" class="gallery-item" />
+            <img src="imagenes/images (12).jpg" alt="skate 1" class="gallery-item" />
+            <img src="imagenes/images (13).jpg" alt="skate 2" class="gallery-item" />
+            <img src="imagenes/images (14).jpg" alt="skate 3" class="gallery-item" />
+            <img src="imagenes/images (2).jpg" alt="skate 4" class="gallery-item" />
+            <img src="imagenes/images (3).jpg" alt="skate 5" class="gallery-item" />
+            <img src="imagenes/images (4).jpg" alt="skate 6" class="gallery-item" />
+            <img src="imagenes/images (5).jpg" alt="skate 7" class="gallery-item" />
+            <img src="imagenes/images (6).jpg" alt="skate 8" class="gallery-item" />
+            <img src="imagenes/images (7).jpg" alt="skate 9" class="gallery-item" />
+            <img src="imagenes/images (8).jpg" alt="skate 10" class="gallery-item" />
+            <img src="imagenes/images (9).jpg" alt="skate 1" class="gallery-item" />
+            <img src="imagenes/images.jpg" alt="skate 2" class="gallery-item" />
+            <img src="imagenes/ooo.jpg" alt="skate 3" class="gallery-item" />
+            <img src="imagenes/images (15).jpg" alt="skate 3" class="gallery-item" />
+            
+          </div>
+        </div>
+      </section>
+
+      <!-- Products -->
+      <section id="products" class="products-section">
+        <div class="container">
+          <h2 class="section-title">Productos destacados</h2>
+          <div class="products-grid" aria-live="polite">
+            <article class="product-card" data-id="p1">
+              <img src="imagenes/deck spider.jpg" alt="tabla" class="product-image" />
+              <h3 class="product-title">tabla</h3>
+              <p class="product-price">€60</p>
+              <button class="btn add-to-cart">Añadir</button>
+            </article>
+
+            <article class="product-card" data-id="p2">
+              <img src="imagenes/descargar (66).jpg" alt="eje" class="product-image" />
+              <h3 class="product-title">eje pro</h3>
+              <p class="product-price">€29.99</p>
+              <button class="btn add-to-cart">Añadir</button>
+            </article>
+
+            <article class="product-card" data-id="p3">
+              <img src="imagenes/images (23).jpg" alt="ruedas 52mm" class="product-image" />
+              <h3 class="product-title">Ruedas 52mm</h3>
+              <p class="product-price">€24.99</p>
+              <button class="btn add-to-cart">Añadir</button>
+            </article>
+            <article class="product-card" data-id="p4">
+              <img src="imagenes/710AsGxDUHL._AC_UF894,1000_QL80_.jpg" alt="tabla" class="product-image" />
+              <h3 class="product-title">tabla</h3>
+              <p class="product-price">€59.99</p>
+              <button class="btn add-to-cart">Añadir</button>
+            </article>
+            <article class="product-card" data-id="p5">
+              <img src="imagenes/lijaa.png" alt="lija" class="product-image" />
+              <h3 class="product-title">lija</h3>
+              <p class="product-price">€15,99</p>
+              <button class="btn add-to-cart">Añadir</button>
+            </article>
+            <article class="product-card" data-id="p6">
+              <img src="imagenes/rueda.jpg" alt="rueda 52mm" class="product-image" />
+              <h3 class="product-title">rueda 52mm</h3>
+              <p class="product-price">€20</p>
+              <button class="btn add-to-cart">Añadir</button>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- About -->
+      <section id="about" class="about-section">
+        <div class="container">
+          <h2 class="section-title">Sobre nosotros</h2>
+          <p>Cuidamos el planeta mientras creas. Tablas y accesorios sostenibles, diseñados para ti. Envío a toda España.</p>
+        </div>
+      </section>
+
+      <!-- Contact -->
+      <section id="contact" class="contact-section">
+        <div class="container">
+          <h2 class="section-title">Contacto</h2>
+          <p>Email: contacto@skatehouse.com</p>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer id="site-footer" class="site-footer">
+      <div class="container footer-inner">
+        <p>© 2025 SkateHouse — Todos los derechos reservados</p>
+        <div class="social">
+          <a href="#" class="social-link" aria-label="Instagram"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+          <a href="#" class="social-link" aria-label="Facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Cart drawer -->
+    <aside id="cart-drawer" class="cart-drawer" aria-hidden="true" aria-label="Cart">
+      <div class="cart-header">
+        <h3 class="cart-title">Carrito</h3>
+        <button id="cart-close" class="btn-icon" aria-label="Close cart"><i class="fa fa-times" aria-hidden="true"></i></button>
+      </div>
+
+      <div id="cart-items" class="cart-items"></div>
+
+      <div class="cart-footer">
+        <p class="cart-total">Total: <span id="cart-total">€0.00</span></p>
+        <button id="checkout-btn" class="btn">Comprar</button>
+      </div>
+    </aside>
+
+    <!-- Scripts -->
+    <script src="js/functions.js" defer></script>
+    <script src="js/app.js" defer></script>
+  </body>
+</html>
+
